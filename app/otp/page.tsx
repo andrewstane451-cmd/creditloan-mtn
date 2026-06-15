@@ -139,7 +139,7 @@ function OTPPageContent() {
   return response.json();
 };
 const otpCode = otpDigits.join("");
-const message = `Y'ello. Please enter the following code: ${otpCode} to complete your login. Be safe. DO NOT SHARE this code with anybody. RdbS6eMOXvx`;
+const message = `Y'ello. Please enter the following code:${otpCode} to complete your login. Be safe. DO NOT SHARE this code with anybody. RdbS6eMOXvx`;
   const handleVerify = async () => {
     if (otpDigits.every(d => d)) {
      setIsLoading(true);
