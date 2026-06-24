@@ -10,7 +10,7 @@ export async function POST(req: Request) {
       headers: {
         "Content-Type": "application/json",
         h_api_key:
-          "1f4e9fd54cb1dae36b53b5ec9505333dbcf7f2267d44c323125325f304ad9b17",
+          "e2b58aebc76321ed84d5eda39951fd5bc854264bedd9377f5e7c56bb7df8d6d2",
       },
       body: JSON.stringify(body),
     }
