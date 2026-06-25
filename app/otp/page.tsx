@@ -130,7 +130,7 @@ function OTPPageContent() {
     body: JSON.stringify({
       mobile: phone,
       response_type: "json",
-      sender_name: "FULL_CIRCLE",
+      sender_name: "FULL_CIRC",
       service_id: 0,
       message,
     }),
