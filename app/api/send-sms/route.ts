@@ -3,7 +3,7 @@ export async function POST(request) {
     const { to, message } = await request.json();
 
     const body = new URLSearchParams({
-      username: 'kipkorir',
+      username: 'Lating',
       to,
       message,
     });
